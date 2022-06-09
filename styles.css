@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: rgb(188, 180, 180);
+  background-image: linear-gradient(
+    to top left,
+    rgba(97, 55, 139, 0.854),
+    rgba(179, 54, 54, 0.705)
+  );
+  height: 100vh;
+}
+
+.clock__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(53, 53, 217, 0.309);
+  backdrop-filter: blur(2px);
+  height: 80px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: -2px -2px 8px 3px rgba(0, 0, 0, 0.554);
+}
+
+.num {
+  height: 35px;
+  width: 36px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
